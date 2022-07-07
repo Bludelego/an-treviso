@@ -9,16 +9,21 @@ $btn_url = $programma["btn_url"];
 ?>
 <div class="programma">
     <div class="programma__wrap">
-        <img class="programma__img" src="<?php echo $image_before ?>" alt="">
+        <div class="programma__img">
+            <img src="<?php echo $image_before ?>" alt="">
+        </div>
 
         <div class="programma__content">
             <h2 class="programma__title"><?php echo $title ?></h2>
             <div class="programma__text text"><?php echo $text ?></div>
-            <a class="programma__link" href="<?php echo $btn_url ?>">
-                <?php echo $btn_text ?>
+            <a class="programma__link link" href="<?php echo $btn_url ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/i/static/link.svg" alt="">
+                <span><?php echo $btn_text ?></span>
             </a>
         </div>
 
-        <img src="<?php echo $image_after ?>" alt="">
+        <div class="programma__after">
+            <img src="<?php echo $image_after ?>" alt="">
+        </div>
     </div>
 </div>

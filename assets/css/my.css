@@ -876,16 +876,35 @@ a {
   margin-bottom: 5.8rem; }
 
 .programma__content {
-  margin: auto;
+  margin: auto auto 12.9rem;
   text-align: center; }
 
 .programma__text {
-  margin-bottom: 7.5rem; }
+  margin-bottom: 6.4rem; }
   .programma__text p {
     margin-bottom: 0; }
 
 .programma__link {
-  margin: 0 auto;
+  margin: 0 auto; }
+
+.programma__img, .programma__after {
+  position: relative; }
+  @media screen and (max-width: 992px) {
+    .programma__img, .programma__after {
+      height: 30rem; } }
+  @media screen and (max-width: 992px) {
+    .programma__img img, .programma__after img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; } }
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-family: 'Manrope';
   font-size: 2.4rem;
@@ -894,5 +913,7 @@ a {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #FFFFFF; }
+  .link img {
+    margin-right: 3.2rem; }
 
 /*# sourceMappingURL=my.css.map */

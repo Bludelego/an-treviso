@@ -6,24 +6,33 @@
         margin-bottom: 5.8rem;
     }
     &__content {
-        margin: auto;
+        margin: auto auto 12.9rem;
         text-align: center;
     }
     &__text {
-        margin-bottom: 7.5rem;
+        margin-bottom: 6.4rem;
         p {
             margin-bottom: 0;
         }
     }
     &__link {
         margin: 0 auto;
-        text-align: center;
-        font-family: 'Manrope';
-        font-size: 2.4rem;
-        line-height: 3.8rem;
-        font-weight: 800;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
-        color: #FFFFFF;
+    }
+    &__img,
+    &__after {
+        position: relative;
+        @media screen and (max-width: 992px) {
+            height: 30rem;
+        }
+        img {
+            @media screen and (max-width: 992px) {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
     }
 }
