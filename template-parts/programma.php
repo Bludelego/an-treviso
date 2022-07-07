@@ -10,14 +10,14 @@ $btn_url = $programma["btn_url"];
 <div class="programma">
     <div class="programma__wrap">
         <div class="programma__img">
-            <img src="<?php echo $image_before ?>" alt="">
+            <img src="<?php echo $image_before ?>" alt="<?php echo $text; ?>">
         </div>
 
         <div class="programma__content">
             <h2 class="programma__title"><?php echo $title ?></h2>
             <div class="programma__text text"><?php echo $text ?></div>
             <a class="programma__link link" href="<?php echo $btn_url ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/i/static/link.svg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/i/static/link.svg" alt="<?php echo $text; ?>">
                 <span><?php echo $btn_text ?></span>
             </a>
         </div>

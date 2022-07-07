@@ -10,7 +10,7 @@ $image = $memberg["image"];
         <div class="memberg__content">
             <?php foreach ($items as $item) : ?>
                 <div class="memberg__item">
-                    <div class="memberg__item-img"> <img src="<?php echo $item["image"]; ?>" alt=""></div>
+                    <div class="memberg__item-img"> <img src="<?php echo $item["image"]; ?>" alt="<?php echo $item['text'] ?>"></div>
                     <div class="memberg__item-content">
                         <h3 class="memberg__item-title"><?php echo $item["title"]; ?></h3>
                         <div class="memberg__text text"><?php echo $item['text']; ?></div>
