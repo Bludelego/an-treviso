@@ -1,0 +1,24 @@
+.progetto {
+    &__wrap {
+        display: flex;
+    }
+
+    &__img {
+        flex: 0 0 50%;
+        position: relative;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    &__content {
+        padding: 12rem;
+    }
+
+    &__title {
+        position: absolute;
+        top: 43%;
+        left: 35%;
+    }
+}

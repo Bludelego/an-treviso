@@ -1,0 +1,21 @@
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/mixins";
+@import "../../libs/slick/slick/slick.scss";
+@import "partials/base";
+
+@import "blocks/globals/scrollbar.scss";
+@import "blocks/header/main-header";
+@import "blocks/navigation/main-menu";
+@import "blocks/globals/btn";
+@import "blocks/header/sandwitch";
+@import "blocks/home/home-intro";
+@import "blocks/pages/page-privacy";
+@import "blocks/footer/main-footer";
+@import "blocks/pages/page-prodotti";
+@import "blocks/footer/form";
+@import "blocks/home/progetto";
+@import "blocks/globals/text";
+@import "blocks/home/memberg";
+@import "blocks/home/programma";
+
