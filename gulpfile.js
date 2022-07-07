@@ -1,5 +1,6 @@
 "use strict";
-const siteUrl = "http://antreviso.local/";
+const siteUrl = "http://bstreviso.local";
+// const siteUrl = "http://antreviso.local/";
 const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const sass = require('gulp-sass');

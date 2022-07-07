@@ -1,10 +1,9 @@
-$scroll_bg: #00377b;
+$scroll_bg: $accent;
 $scroll_color: lighten($scroll_bg, 20%);
 * {
   scrollbar-width: thin;
   scrollbar-color: $scroll_color $scroll_bg;
 }
-
 /* для Chrome/Edge/Safari */
 *::-webkit-scrollbar {
   height: 12px;

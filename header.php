@@ -15,7 +15,7 @@
             <?php if (get_field('header_background_image', 'option')) : ?>
                 <img src="<?php echo get_field('header_background_image', 'option'); ?>" alt="">
             <?php endif; ?>
-            <div class="logo-l">  <?php require_once __DIR__ . '/assets/svg/logo-club.php'; ?></div>
+            <div class="main-header__logo-l"> <?php require_once __DIR__ . '/assets/i/static/logo-l.svg'; ?></div>
             <div class="logo">
                 <?php if (get_field('logo', 'option')) : ?>
                     <?php if (is_front_page()) : ?>
@@ -45,6 +45,12 @@
                 'depth'           => 0,
                 'walker'          => '',
             ]); ?>
+
+            <a href="#" class="main-header__like">
+                <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.2222 8.94768e-08C19.0148 8.94768e-08 17.8239 0.282382 16.7439 0.824783C15.6639 1.36718 14.7245 2.15471 14 3.12498C13.0205 1.81322 11.655 0.844266 10.0969 0.355361C8.53869 -0.133544 6.86688 -0.117608 5.31823 0.40091C3.76958 0.919427 2.42261 1.91424 1.46812 3.24443C0.513624 4.57462 0 6.17276 0 7.81245C0 17.1744 12.95 24.5572 13.4944 24.8696C13.6487 24.9567 13.823 25.0016 14 24.9999C14.1771 25.0029 14.3518 24.9579 14.5056 24.8696C16.8903 23.4693 19.1272 21.8289 21.1815 19.9738C25.7056 15.8853 28 11.7968 28 7.81245C28 5.74046 27.1806 3.75333 25.7219 2.28822C24.2633 0.823096 22.285 8.94768e-08 20.2222 8.94768e-08V8.94768e-08Z" />
+                </svg>
+            </a>
 
             <div class="main-header__sandwich sandwitch-wrap" id="js-sandwitch-wrap">
                 <div class="sandwitch">

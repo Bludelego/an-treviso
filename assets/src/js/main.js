@@ -5,7 +5,7 @@ import footerAnimation from "./modules/animation/footer-animation";
 import fixedHeader from "./modules/header/fixedHeader";
 
 document.addEventListener("DOMContentLoaded", function () {
-    streetMap();
+    // streetMap();
     mainMenu();
     fixedHeader();
 

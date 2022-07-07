@@ -7,11 +7,10 @@
     // margin-bottom: 3rem;
     // height: 120rem;
   }
-  @media screen and (max-width: 576px) { 
+  @media screen and (max-width: 576px) {
     height: 60rem;
-    
   }
-  img {
+  &__img {
     position: absolute;
     top: 0;
     left: 0;
@@ -25,8 +24,6 @@
       height: 50%;
     }
   }
-}
-.home-intro {
   &__content {
     position: relative;
     text-align: center;
@@ -54,8 +51,7 @@
     // line-height: 55px;
     text-align: center;
     letter-spacing: 0.02em;
-
-color: #FFFFFF;
+    color: #FFFFFF;
     @media screen and (max-width: 992px) {
       opacity: 1;
     }
@@ -73,11 +69,11 @@ color: #FFFFFF;
       opacity: 1;
     }
   }
-}
-
-.arrow-down {
-  img{
-    z-index: 2;
+  &__down {
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
   }
-align-items: center;
 }
