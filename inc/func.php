@@ -128,10 +128,10 @@ function imgnewR($image_id, $image_small_id = null, $class = '')
 		$img_small = $image_id;
 	}
 ?>
-<picture>
-    <source srcset="<?php echo wp_get_attachment_image_url($image_id, 'full') ?>" media="(min-width: 768px)">
-    <img class="<?php echo $class; ?>" src="<?php echo wp_get_attachment_image_url($img_small, 'full'); ?>" alt="">
-</picture>
+	<picture>
+		<source srcset="<?php echo wp_get_attachment_image_url($image_id, 'full') ?>" media="(min-width: 768px)">
+		<img class="<?php echo $class; ?>" src="<?php echo wp_get_attachment_image_url($img_small, 'full'); ?>" alt="">
+	</picture>
 <?php
 }
 
@@ -150,7 +150,8 @@ function true_remove_default_sizes($sizes)
 
 function remove_pages_editor()
 {
-	if (get_the_ID() === 5391) {
+	$ids = [29];
+	if (in_array(get_the_ID(), $ids)) {
 		remove_post_type_support('page', 'editor');
 	} // end if
 } // end remove_pages_editor
