@@ -162,7 +162,7 @@ p {
   max-width: 1420px; }
   @media screen and (max-width: 1800px) {
     .container {
-      padding: 0 3rem; } }
+      padding: 0 1rem; } }
 
 input[type="submit"]:disabled {
   cursor: not-allowed !important;
