@@ -113,6 +113,7 @@ body {
     position: absolute;
     top: 0;
     left: 50%;
+    display: none;
     width: 1px;
     height: 100%;
     background-color: green;
@@ -257,6 +258,9 @@ a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
     .main-header.active .sandwitch-wrap {
       top: 0; }
+      @media screen and (max-width: 1200px) {
+        .main-header.active .sandwitch-wrap {
+          top: -0.8rem; } }
     .main-header.active .main-header__cart-icon {
       top: 1rem; }
     .main-header.active .main-header__logo-l {
@@ -266,6 +270,9 @@ a {
       width: 20rem; }
     .main-header.active .main-header__like {
       top: 1.9rem; }
+      @media screen and (max-width: 1200px) {
+        .main-header.active .main-header__like {
+          top: 1.5rem; } }
   .main-header__cart-icon {
     position: absolute;
     top: 6.4rem;

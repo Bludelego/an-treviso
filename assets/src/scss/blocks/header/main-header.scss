@@ -44,6 +44,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     .sandwitch-wrap {
       top: 0;
+      @media screen and (max-width: 1200px) {
+        top: -0.8rem;
+      }
     }
     .main-header__cart-icon {
       top: 1rem;
@@ -57,6 +60,9 @@
     }
     .main-header__like {
       top: 1.9rem;
+      @media screen and (max-width: 1200px) {
+        top: 1.5rem;
+      }
     }
   }
   &__cart-icon {
