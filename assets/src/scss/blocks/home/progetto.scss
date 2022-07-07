@@ -1,24 +1,48 @@
 .progetto {
     &__wrap {
         display: flex;
+        align-items: stretch;
+        @media screen and (max-width: 992px) {
+            display: block;
+        }
     }
-
     &__img {
-        flex: 0 0 50%;
         position: relative;
-
+        flex: 0 0 50%;
+        height: 108rem;
+        @media screen and (max-width: 1700px) {
+            height: auto;
+        }
+        @media screen and (max-width: 992px) {
+            height: 80rem;
+        }
         img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
         }
     }
-
-    &__content {
-        padding: 12rem;
-    }
-
     &__title {
         position: absolute;
-        top: 43%;
-        left: 35%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__content {
+        padding: 12.8rem 12.9rem;
+        @media screen and (max-width: 1700px) {
+            padding: 8rem 3rem;
+        }
+        .text {
+            p {
+                letter-spacing: -0.04rem;
+                @media screen and (max-width: 1700px) {
+                    margin-bottom: 3rem;
+                }
+            }
+        }
     }
 }
