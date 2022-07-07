@@ -8,9 +8,4 @@ document.addEventListener("DOMContentLoaded", function () {
     // streetMap();
     mainMenu();
     fixedHeader();
-
-    if (document.querySelector('.home-intro') && window.innerWidth > 992) {
-        homeIntroAnimation();
-    }
-    footerAnimation();
 });

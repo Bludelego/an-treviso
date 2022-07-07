@@ -26,11 +26,6 @@ body {
     background-color: green;
     z-index: 10000;
   }
-  &.privacy-policy {
-    .main-header {
-      border-bottom: 1px solid #eee;
-    }
-  }
 }
 .wrapper {
   margin: 0 auto;
@@ -71,13 +66,9 @@ p {
 .container {
   margin: 0 auto;
   padding: 0;
-  max-width: 1920px;
-  &--bg {
-    position: relative;
-    background: url('../i/static/bg.svg');
-    background-repeat: no-repeat;
-    z-index: 2;
-    background-position: bottom;
+  max-width: 1420px;
+  @media screen and (max-width: 1800px) {
+    padding: 0 3rem;
   }
 }
 input[type="submit"]:disabled {

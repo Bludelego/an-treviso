@@ -139,5 +139,12 @@
     @media screen and (max-width: 768px) {
       width: 180px;
     }
+    a {
+      display: block;
+      transition: all .4s;
+      &:hover {
+        transform: scale(0.98);
+      }
+    }
   }
 }
