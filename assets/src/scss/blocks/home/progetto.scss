@@ -1,4 +1,8 @@
 .progetto {
+    margin-bottom: 19.5rem;
+    @media screen and (max-width: 992px) {
+        margin-bottom: 5.5rem;
+    }
     &__wrap {
         display: flex;
         align-items: stretch;
