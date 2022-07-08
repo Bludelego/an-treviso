@@ -380,7 +380,7 @@ a {
     height: 100%;
     opacity: 1;
     pointer-events: initial;
-    background: rgba(0, 0, 0, 0.9); }
+    background: rgba(0, 0, 0, 0.96); }
     .main-menu.fixed a {
       font-size: 4rem;
       color: white; }
