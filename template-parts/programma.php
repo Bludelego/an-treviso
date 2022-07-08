@@ -9,9 +9,7 @@ $btn_url = $programma["btn_url"];
 ?>
 <div class="programma">
     <div class="programma__wrap">
-        <div class="programma__img">
-            <img src="<?php echo $image_before ?>" alt="<?php echo $text; ?>">
-        </div>
+        <div class="programma__img" data-stellar-ratio="1.2" data-stellar-vertical-offset="400" style="background-image: url(<?php echo $image_before; ?>)"></div>
 
         <div class="programma__content">
             <h2 class="programma__title"><?php echo $title ?></h2>
@@ -22,8 +20,6 @@ $btn_url = $programma["btn_url"];
             </a>
         </div>
 
-        <div class="programma__after">
-            <img src="<?php echo $image_after ?>" alt="">
-        </div>
+        <div class="programma__after" style="background-image: url('<?php echo $image_after; ?>');"></div>
     </div>
 </div>

@@ -1,4 +1,5 @@
 .programma {
+    position: relative;
     &__img {
         margin-bottom: 12.7rem;
     }
@@ -21,18 +22,11 @@
     &__img,
     &__after {
         position: relative;
-        @media screen and (max-width: 992px) {
-            height: 30rem;
-        }
-        img {
-            @media screen and (max-width: 992px) {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
+        display: block !important;
+        height: 32rem;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow: hidden;
     }
 }

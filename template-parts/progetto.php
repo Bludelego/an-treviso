@@ -3,7 +3,7 @@
     <?php if ($progetto) : ?>
         <div class="progetto__wrap">
             <div class="progetto__img">
-                <img src="<?php echo $progetto['image']; ?>" alt="Progetto">
+                <div class="progetto__image" data-stellar-ratio="1.3" data-stellar-vertical-offset="900" style="background-image: url('<?php echo $progetto['image']; ?>');"></div>
                 <h2 class="progetto__title"><?php echo $progetto['title']; ?></h2>
             </div>
             <div class="progetto__content">
