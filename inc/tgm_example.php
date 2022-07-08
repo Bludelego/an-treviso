@@ -85,10 +85,10 @@ function bsv_eccommerce_register_required_plugins()
 		//			'slug'             => 'wp-fastest-cache',
 		//			'required'         => true,
 		//		),
-		//		array(
-		//			'name'             => 'Rank Math – SEO Plugin for WordPress',
-		//			'slug'             => 'seo-by-rank-math'
-		//		),
+		array(
+			'name'             => 'Rank Math – SEO Plugin for WordPress',
+			'slug'             => 'seo-by-rank-math'
+		),
 		//		array(
 		//			'name'             => 'WC Fields Factory',
 		//			'slug'             => 'wc-fields-factory',

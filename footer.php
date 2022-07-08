@@ -27,23 +27,23 @@ $partner_url = get_field('partner_url', 'option');
         <div class="main-footer__wrap">
             <div class="main-footer__contacts">
                 <div class="main-footer__item">
-                    <h2 class="main-footer__title">
+                    <h3 class="main-footer__title">
                         <img src="<?php echo $contacts_title; ?>" alt="">
-                    </h2>
-                    <h3 class="main-footer__subtitle"><?php echo $contacts_subtitle; ?></h3>
+                    </h3>
+                    <h4 class="main-footer__subtitle"><?php echo $contacts_subtitle; ?></h4>
                     <div class="main-footer__text"><?php echo $contacts_text; ?></div>
                     <a href="" class="main-footer__email"><?php echo $email; ?></a>
                 </div>
-                <h2 class="main-footer__title">
+                <h3 class="main-footer__title">
                     <img src="<?php echo $member_title; ?>" alt="">
-                </h2>
+                </h3>
                 <div class="main-footer__text"><?php echo $member_text; ?></div>
                 <a href="" class="main-footer__email"><?php echo $member_email; ?></a>
             </div>
             <div class="main-footer__right">
-                <h2 class="main-footer__title">
+                <h3 class="main-footer__title">
                     <img src="<?php echo $form_title; ?>" alt="">
-                </h2>
+                </h3>
 
                 <a class="main-footer__link link" href="<?php echo $link_url; ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/i/static/link.svg" alt="">
