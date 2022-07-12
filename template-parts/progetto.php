@@ -1,4 +1,5 @@
 <div class="progetto" id="js-progetto">
+    <div class="dot"></div>
     <?php $progetto = get_field('progetto'); ?>
     <?php if ($progetto) : ?>
         <div class="progetto__wrap">

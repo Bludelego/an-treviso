@@ -8,6 +8,7 @@ $btn_text = $programma["btn_text"];
 $btn_url = $programma["btn_url"];
 ?>
 <div class="programma">
+    <div class="dot"></div>
     <div class="programma__wrap">
         <div class="programma__img" data-stellar-ratio="1.2" data-stellar-vertical-offset="400" style="background-image: url(<?php echo $image_before; ?>)"></div>
 

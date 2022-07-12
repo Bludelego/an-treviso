@@ -5,6 +5,8 @@ $items = $memberg["items"];
 $image = $memberg["image"];
 ?>
 <div class="memberg">
+
+    <div class="dot"></div>
     <div class="memberg__wrap">
         <!-- <h2 class="memberg__title"><?php echo $title ?></h2> -->
         <h2 class="memberg__title">

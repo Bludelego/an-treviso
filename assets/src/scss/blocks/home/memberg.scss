@@ -1,5 +1,9 @@
 .memberg {
+    position: relative;
     margin-bottom: 13.2rem;
+    .dot {
+        top: -12%;
+    }
     &__title {
         margin-bottom: 12.2rem;
         text-align: center;
