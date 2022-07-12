@@ -6,6 +6,10 @@
         @media screen and (max-width: 576px) {
             margin-bottom: 6rem;
         }
+        span {
+            display: inline-block;
+            width: 0.9rem;
+        }
         svg {
             @media screen and (max-width: 576px) {
                 width: 90%;

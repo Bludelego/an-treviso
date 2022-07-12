@@ -6,7 +6,21 @@ $image = $memberg["image"];
 ?>
 <div class="memberg">
     <div class="memberg__wrap">
-        <h2 class="memberg__title"><?php echo $title ?></h2>
+        <!-- <h2 class="memberg__title"><?php echo $title ?></h2> -->
+        <h2 class="memberg__title">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/m.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/e.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/m.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/b.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/e.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/r.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/s.svg" alt="">
+            <span> </span>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/o.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/n.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/l.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/y.svg" alt="">
+        </h2>
         <div class="memberg__content">
             <?php foreach ($items as $item) : ?>
                 <div class="memberg__item">
